@@ -294,7 +294,7 @@
             </select>
         </div>
 <%--        <button type="submit" style="color:yellowgreen" class="btn">login</button>--%>
-        <a  style="color:yellowgreen" class="btn" href="/login">Login</a>
+        <a  style="color:yellowgreen" class="btn" href="/">Login</a>
         <button type="reset" style="color:yellowgreen"class="button button3">Reset</button>
         <button type="submit" style="color:yellowgreen" class="button">Register</button>
 

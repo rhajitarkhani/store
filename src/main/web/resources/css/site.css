@@ -1,0 +1,12 @@
+.column1 {
+    float: left;
+    width: 35%;
+    padding: 1px;
+    height: 100%; /* Should be removed. Only for demonstration */
+}
+.column2 {
+    float: left;
+    width: 60%;
+    padding: 1px;
+    height: 100%; /* Should be removed. Only for demonstration */
+}

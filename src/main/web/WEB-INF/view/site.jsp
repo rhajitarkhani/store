@@ -6,27 +6,19 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-    <title>Title</title>
-    <style>
-        .column1 {
-            float: left;
-            width: 35%;
-            padding: 1px;
-            height: 100%; /* Should be removed. Only for demonstration */
-        }
-        .column2 {
-            float: left;
-            width: 60%;
-            padding: 1px;
-            height: 100%; /* Should be removed. Only for demonstration */
-        }
-    </style>
+    <title>Site</title>
 </head>
 <body>
+<%--<embed src="/resources/music/music.mp3">--%>
+<%--    <div class="column1" style="background-color: blueviolet;"loop="true" autostart="true" width="2" height="0">--%>
+    <audio loop="loop" autoplay="autoplay">
+        <source src="/resources/music/music.mp3" type="audio/mpeg" />
+    </audio>
+
 <div class="row">
-    <div class="column1" style="background-color: blueviolet;">
         <h2>Column 1</h2>
         <p>Some text..</p>
     </div>
