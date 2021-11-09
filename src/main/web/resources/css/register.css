@@ -1,0 +1,41 @@
+.input-container {
+    display: inline;
+    display: flex;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.icon {
+    padding: 10px;
+    background: black;
+    color: yellow;
+    min-width: 50px;
+    text-align: center;
+}
+.input-field {
+    width: 100%;
+    outline: none;
+}
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+* {
+    box-sizing: border-box;
+}
+.button3 {background-color: #f44336;} /* Red */
+.column1 {
+    color: black;
+    float: left;
+    width: 35%;
+    height: 100%;
+}
+.column2 {
+    float: left;
+    width: 40%;
+    height: 80%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
